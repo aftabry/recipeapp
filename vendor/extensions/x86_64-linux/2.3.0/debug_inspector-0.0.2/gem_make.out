@@ -1,0 +1,15 @@
+current directory: /home/aftab/recipeapp/vendor/gems/debug_inspector-0.0.2/ext/debug_inspector
+/home/aftab/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20161107-15116-5syx5v.rb extconf.rb
+creating Makefile
+
+current directory: /home/aftab/recipeapp/vendor/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /home/aftab/recipeapp/vendor/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /home/aftab/recipeapp/vendor/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -m 0755 debug_inspector.so ./.gem.20161107-15116-7gmqi5
