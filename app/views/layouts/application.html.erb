@@ -7,8 +7,26 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
     <%= csrf_meta_tags %>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA0sD_2DabfydPRIW8QR-QTEnivSObYuXY",
+    authDomain: "recipe-app-a2e2d.firebaseapp.com",
+    databaseURL: "https://recipe-app-a2e2d.firebaseio.com",
+    storageBucket: "recipe-app-a2e2d.appspot.com",
+    messagingSenderId: "1078239402293"
+  };
+  firebase.initializeApp(config);
+</script>
   </head>
   <body>
+  <pre id="object"></pre>
+  <!-- <script src ="recipes.js"></script> -->
+  
     <header>
       <%= render 'layouts/navigation' %>
     </header>
